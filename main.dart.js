@@ -88276,7 +88276,7 @@ Yw(a){var s=0,r=A.K(t.N),q,p,o,n,m
 var $async$w5=A.L(function(b,c){if(b===1)return A.H(c,r)
 while(true)switch(s){case 0:n=t.N
 s=3
-return A.O(A.aB3(A.h2("https://alpino.com.sg/apps/xlator//api/v1/audio/request/"+a),A.am(["Content-Type","text/plain","X-Api-Key","abcdef123456"],n,n)),$async$w5)
+return A.O(A.aB3(A.h2("https://cors-anywhere.herokuapp.com/https://alpino.com.sg/apps/xlator//api/v1/audio/request/"+a),A.am(["Content-Type","text/plain","X-Api-Key","abcdef123456"],n,n)),$async$w5)
 case 3:m=c
 n=m.b
 p=m.e
@@ -88292,7 +88292,7 @@ var $async$zz=A.L(function(b,c){if(b===1)return A.H(c,r)
 while(true)switch(s){case 0:p=t.N
 o=A.am(["X-Api-Key","abcdef123456","Content-Type","text/plain","Access-Control-Allow-Origin","*","Access-Control-Allow-Methods","GET"],p,p)
 s=3
-return A.O(A.aB3(A.h2("https://alpino.com.sg/apps/xlator//api/v1/audio/"+a),o),$async$zz)
+return A.O(A.aB3(A.h2("https://cors-anywhere.herokuapp.com/https://alpino.com.sg/apps/xlator//api/v1/audio/"+a),o),$async$zz)
 case 3:n=c
 p=n.b
 if(p===200){q=n.w
