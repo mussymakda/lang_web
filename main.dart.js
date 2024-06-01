@@ -88290,7 +88290,7 @@ zz(a){return this.akS(a)},
 akS(a){var s=0,r=A.K(t.H3),q,p,o,n
 var $async$zz=A.L(function(b,c){if(b===1)return A.H(c,r)
 while(true)switch(s){case 0:p=t.N
-o=A.am(["X-Api-Key","abcdef123456","Content-Type","text/plain"],p,p)
+o=A.am(["X-Api-Key","abcdef123456","Content-Type","text/plain","Access-Control-Allow-Origin","*","Access-Control-Allow-Methods","GET"],p,p)
 s=3
 return A.O(A.aB3(A.h2("https://alpino.com.sg/apps/xlator//api/v1/audio/"+a),o),$async$zz)
 case 3:n=c
