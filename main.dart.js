@@ -87328,7 +87328,7 @@ ZY(a){var s=0,r=A.G(t.N),q,p,o,n,m
 var $async$ww=A.H(function(b,c){if(b===1)return A.D(c,r)
 while(true)switch(s){case 0:n=t.N
 s=3
-return A.L(A.aER(A.hv("https://cors-anywhere.herokuapp.com/https://alpino.com.sg/apps/xlator//api/v1/audio/request/"+a),A.ax(["Content-Type","text/plain","X-Api-Key","abcdef123456"],n,n)),$async$ww)
+return A.L(A.aER(A.hv("https://lang-web-br74.vercel.app/api/proxy/api/v1/audio/request/"+a),A.ax(["Content-Type","text/plain","X-Api-Key","abcdef123456"],n,n)),$async$ww)
 case 3:m=c
 n=m.b
 p=m.e
@@ -87344,7 +87344,7 @@ var $async$A5=A.H(function(b,c){if(b===1)return A.D(c,r)
 while(true)switch(s){case 0:p=t.N
 o=A.ax(["X-Api-Key","abcdef123456","Content-Type","text/plain"],p,p)
 s=3
-return A.L(A.aER(A.hv("https://cors-anywhere.herokuapp.com/https://alpino.com.sg/apps/xlator//api/v1/audio/"+a),o),$async$A5)
+return A.L(A.aER(A.hv("https://lang-web-br74.vercel.app/api/proxy/api/v1/audio/"+a),o),$async$A5)
 case 3:n=c
 p=n.b
 if(p===200){q=n.w
@@ -87520,13 +87520,15 @@ s.Rs()},
 Dn(){var s=this,r=B.e.bw(s.w.a,1000),q=B.b.J6(s.x,new A.an3(s,r))
 if(q!==-1)s.ac(new A.an4(s,q))
 else if(!s.f&&s.x.length!==0)s.ac(new A.an5(s))},
-Rs(){var s,r=this.d,q=r.f,p=q.length
-if(p!==0){s=B.b.J6(this.x,new A.ang())
-if(s!==-1){p=B.b.gck(q).Q
+Rs(){var s,r,q=this.d,p=q.f,o=p.length
+if(o!==0){s=B.b.J6(this.x,new A.ang())
+if(s!==-1){r=s*40
+o=B.b.gck(p).Q
+o.toString
+p=B.b.gck(p).ax
 p.toString
-q=B.b.gck(q).ax
-q.toString
-r.jq(B.e.fF(s*40,0,p-q),B.jr,B.df)}}},
+B.e.fF(r,0,o-p)
+q.jq(r,B.jr,B.df)}}},
 nH(){var s=0,r=A.G(t.H),q=1,p,o=this,n,m,l,k,j,i
 var $async$nH=A.H(function(a,b){if(a===1){p=b
 s=q}while(true)switch(s){case 0:q=3
@@ -87675,10 +87677,10 @@ $1(a){return a.d=!1},
 $S:100}
 A.an3.prototype={
 $1(a){var s,r,q=a.c,p=q[0].b
-q=B.b.ga_(q).a
+q=q[q.length-2].a
 s=B.b.dJ(this.a.x,a)
 r=this.b
-return r>p&&r<q+p+s*1000},
+return r>p&&r<q+p+s*1080},
 $S:180}
 A.an4.prototype={
 $0(){var s=this.a
