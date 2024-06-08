@@ -87328,7 +87328,7 @@ ZY(a){var s=0,r=A.G(t.N),q,p,o,n,m
 var $async$ww=A.H(function(b,c){if(b===1)return A.D(c,r)
 while(true)switch(s){case 0:n=t.N
 s=3
-return A.L(A.aER(A.hv("https://alpino.com.sg/apps/xlator//api/v1/audio/request/"+a),A.ax(["Access-Control-Allow-Origin","*","Access-Control-Allow-Methods","POST, GET, OPTIONS, PUT, DELETE, HEAD","Access-Control-Allow-Headers: X-Requested-WithContent-Type","text/plain","X-Api-Key","abcdef123456"],n,n)),$async$ww)
+return A.L(A.aER(A.hv("https://alpino.com.sg/apps/xlator//api/v1/audio/request/"+a),A.ax(["Access-Control-Allow-Origin","*","Access-Control-Allow-Methods","POST, GET, OPTIONS, PUT, DELETE, HEAD","Content-Type","text/plain","X-Api-Key","abcdef123456"],n,n)),$async$ww)
 case 3:m=c
 n=m.b
 p=m.e
@@ -87342,7 +87342,7 @@ A5(a){return this.aml(a)},
 aml(a){var s=0,r=A.G(t.H3),q,p,o,n
 var $async$A5=A.H(function(b,c){if(b===1)return A.D(c,r)
 while(true)switch(s){case 0:p=t.N
-o=A.ax(["Access-Control-Allow-Origin","*","Access-Control-Allow-Methods","POST, GET, OPTIONS, PUT, DELETE, HEAD","Access-Control-Allow-Headers: X-Requested-WithX-Api-Key","abcdef123456","Content-Type","text/plain"],p,p)
+o=A.ax(["Access-Control-Allow-Origin","*","Access-Control-Allow-Methods","POST, GET, OPTIONS, PUT, DELETE, HEAD","X-Api-Key","abcdef123456","Content-Type","text/plain"],p,p)
 s=3
 return A.L(A.aER(A.hv("https://alpino.com.sg/apps/xlator//api/v1/audio/"+a),o),$async$A5)
 case 3:n=c
